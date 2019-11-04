@@ -1,0 +1,277 @@
+#app {
+    padding: 2% 0 0 0;
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+a {
+    color: #0e90d2;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+/*[v-cloak] {*/
+/*    display: none;*/
+/*}*/
+
+.empty-a {
+    color: #333;
+}
+
+.empty-a:hover {
+    color: #333;
+}
+
+.header-row {
+    max-height: 30px;
+}
+
+.header-row .el-row {
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.header-row a {
+    cursor: pointer;
+}
+
+.el-tabs__item {
+    font-weight: normal;
+}
+
+.visited-a:link {
+    color: #0b618d;
+}
+
+.el-table .el-button + .el-button {
+    margin-left: 0px;
+}
+
+.container-margin-top {
+    margin-top: 2%;
+}
+
+.td-center {
+    text-align: center;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+.search_site {
+    margin-top: 10px;
+}
+
+.container-margin-bottom {
+    margin-bottom: 1.5%;
+}
+
+#search-input-container .el-button {
+    width: 200px;
+}
+
+.search-input-filter {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.search-input-filter a {
+    margin-top: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#filter-dialog .el-dialog__body {
+    padding-top: 0px;
+}
+
+.filter-message {
+    margin-bottom: 10px;
+}
+
+.filter-action-container {
+    margin-top: 4%;
+    text-align: right;
+}
+
+.empty-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+    text-align: center;
+    font-size: 18px;
+    min-height: 400px;
+}
+
+#page-component-up {
+    background-color: #fff;
+    position: fixed;
+    right: 100px;
+    bottom: 150px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .12);
+    z-index: 5;
+}
+
+#page-component-up i {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    /* bottom: 10px; */
+    top: 12px;
+    position: relative;
+    color: #409EFF;
+}
+
+#table-container {
+    min-height: 500px
+}
+
+#table-container .el-pagination {
+    padding-right: 0;
+}
+
+#table-container .btn-next {
+    margin-right: 0;
+}
+
+#message {
+    text-align: center;
+    padding-top: 250px;
+}
+
+.date-normal {
+    width: 100px;
+}
+
+.date-big {
+    width: 180px;
+}
+
+.loadmore-loading {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.loadmore-loading i {
+    font-size: 16px;
+}
+
+.loadmore-loading span {
+    font-size: 14px;
+}
+
+.busuanzi {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 1%;
+}
+
+#busuanzi_title {
+    font-weight: bold;
+}
+
+.el-tag:hover {
+    cursor: pointer;
+}
+
+.el-tab-small .el-tabs__item {
+    padding-left: 13px;
+    padding-right: 13px;
+    line-height: 35px;
+    height: 35px;
+    font-size: 13px;
+}
+
+.el-table__row {
+    font-size: 15px;
+}
+
+.button-more {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.more-action-title {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.more-action-button {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.option-row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.report-link {
+    cursor: pointer;
+}
+
+.option-right {
+    text-align: right;
+}
+
+.remember-source .el-checkbox {
+    margin-bottom: 0px;
+}
+
+.remember-source .el-checkbox__inner {
+    margin-bottom: 2px;
+}
+
+.remember-source .el-checkbox__input.is-focus .el-checkbox__inner {
+    border-color: #666;
+}
+
+.remember-source .el-checkbox__input.is-checked + .el-checkbox__label {
+    color: #666;
+}
+
+.remember-source .el-checkbox__input.is-checked .el-checkbox__inner, .setting .el-checkbox__input.is-indeterminate .el-checkbox__inner {
+    background-color: #666;
+    border-color: #666;
+}
+
+.detail-popup .el-dialog__title {
+    word-break: break-all; /**两端对齐**/
+}
+
+.detail-file-item {
+    word-break: break-all; /**两端对齐**/
+    white-space: pre-line;
+}
+
+.detail-popup-error {
+    text-align: center;
+    color: #f56c6c;
+}
+
+.option-left .el-button {
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+.multiple-selection-message {
+    margin-right: 10px;
+}
+
+.multiple-selection-item-name {
+    margin-bottom: 5px;
+}
